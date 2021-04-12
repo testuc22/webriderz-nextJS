@@ -1,0 +1,72 @@
+.service_detail_section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .service_detail_area{
+        .service-detail-sidebar{
+            .design{
+                margin-bottom: 20px;
+                h4{
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                }
+                ul{
+                    li{
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #eee;
+                        margin-bottom: 10px;
+                        &:last-child {
+                            border-bottom: 0px;
+                        }
+                        a{
+                            font-size: 14px;
+                            font-family: 'Roboto';
+                            font-weight: 500;
+                            color: #555;
+                            text-decoration: none;
+                        }
+                        &.active{
+                            a{
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content_area{
+            h2{
+                font-size: 36px;
+                font-weight: 900;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 26px;
+                margin-bottom: 15px;
+            }
+            h3{
+                font-size: 30px;
+                font-weight: 900;
+                margin-bottom: 15px;
+            }
+            h4{
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+        }
+        .img_area{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: #f7f7f7;
+            margin: 0 auto;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}

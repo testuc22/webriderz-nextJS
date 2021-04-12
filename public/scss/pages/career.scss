@@ -1,0 +1,191 @@
+.career_info{
+    padding: 50px 0px;
+    .info_area{
+        h3{
+            font-size: 30px;
+            font-weight: 900;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 26px;
+        }
+        h4{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        ul{
+            list-style-type: disc;
+            padding-left: 15px;
+            li{
+                font-size: 15px;
+                padding: 5px 0px;
+            }
+        }
+    }
+}
+.recruitment_info{
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+    h2{
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .job_position{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eeeeee;
+        .desc{
+            padding-right: 100px;
+            h4{
+                font-size: 18px;
+                font-weight: bold;
+                color: $black;
+            }
+            span{
+                font-size: 16px;
+                color: #666;
+                display: block;
+            }
+            p{
+                font-size: 15px;
+                margin-top: 10px;
+            }
+            a{
+                font-size: 14px;
+                text-transform: uppercase;
+                text-decoration: underline;
+                color: $black;
+                font-weight: bold;
+            }
+            .collapse{
+                h5{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+                ul{
+                    list-style-type: disc;
+                    padding-left: 25px;
+                    li{
+                        font-size: 14px;
+                        padding: 5px 0px;
+                    }
+                }
+            }
+            h5{
+                font-size: 18px;
+                font-weight: bold;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            ul{
+                list-style-type: disc;
+                padding-left: 25px;
+                li{
+                    font-size: 14px;
+                    padding: 5px 0px;
+                }
+            }
+        }
+        .apply_btn{
+            button{
+                background-color: $primary-color;
+                border: none;
+                padding: 7px 25px;
+                font-size: 15px;
+                font-weight: bold;
+                border-radius: 5px;
+                outline: none;
+            }
+        }
+    }
+}
+#myModal{
+    .modal-dialog{
+        .modal-content {
+            .modal-body{
+                .success{
+                    color: green;
+                }
+                h4{
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 10px 0px;
+                    background-color: $primary-color;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+                    color: #555;
+                }
+                .close{
+                    position: absolute;
+                    top: 23px;
+                    right: 25px;
+                    outline: none;
+                }
+                form{
+                    .error{
+                        color: red;
+                        font-size: 14px;
+                        font-family: 'Roboto';
+                        font-weight: 400;
+                        margin: 0;
+                    }
+                    .file_error{
+                        color: red;
+                        font-size: 14px;
+                        font-family: 'Roboto';
+                        font-weight: 400;
+                        margin-top: -10px;
+                    }
+                    p.error{
+                        margin-top: 14px;
+                        color: red;
+                    }
+                    .form-control{
+                        &::placeholder{
+                            font-size: 13px;
+                            color: #555;
+                        }
+                    }
+                    select{
+                        font-size: 13px;
+                        color: #555;
+                        &:focus{
+                            box-shadow: none; 
+                            outline: none !important; 
+                            border-color: #ced4da;  
+                        }
+                    }
+                    label{
+                        span{
+                            border: 1px solid #ddd;
+                            padding: 5px 10px;
+                            position: absolute;
+                            top: 10px;
+                        }
+                        #file{
+                            opacity: 0;
+                        }
+                    }
+                    .form-submit{
+                        text-align: center;
+                        button {
+                            background-color: $primary-color;
+                            padding: 7px 10px;
+                            border-radius: 5px;
+                            border: none;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

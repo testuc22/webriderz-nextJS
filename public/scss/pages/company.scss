@@ -1,0 +1,114 @@
+.about_company{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    .left_side{
+        padding-top: 50px;
+        h4{
+            font-size: 36px;
+            font-weight: 900;
+            color: #555;
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: 16px;
+            color: #666;
+            line-height: 26px;
+        }
+    }
+    .right_side{
+        img{
+            width: 100%;
+        }
+    }
+}
+.why_choose_us{
+    padding: 40px 0px;
+    background-color: #f7f7f7;
+    .left_side{
+        img{
+            width: 100%;
+        }
+    }
+    .right_side{
+        h4{
+            font-size: 36px;
+            font-weight: 900;
+            color: #555;
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: 16px;
+            color: #666;
+            line-height: 26px;
+        }   
+    }
+}
+.company_mision{
+    padding: 50px 0px;
+    .mision_content_area{
+        .img_area{
+            margin-bottom: 15px;
+            img{
+                max-width: 100%;
+            }
+        }
+        .company_desc{
+            h4{
+                font-size: 36px;
+                font-weight: 900;
+                padding-bottom: 10px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 26px;
+                color: #666;
+            }
+        }
+    }
+}
+.creative_section{
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+    .title{
+        text-align: center;
+        h2{
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+    }
+    .creative_inner{
+        text-align: center;
+        h5{
+            font-size: 28px;
+            text-transform: capitalize;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        ul{
+            li{
+                font-size: 16px;
+                color: #666;
+                padding: 5px 0px;
+            }
+        }
+    }
+}
+.client_section{
+    padding: 100px 0px;
+    .title{
+        text-align: center;
+        h4{
+            font-size: 36px;
+            font-weight: 900;
+            margin-bottom: 50px;
+        }
+    }
+    .img_area{
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        img{
+            max-width: 100%;
+        }
+    }
+}
